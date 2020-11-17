@@ -17,7 +17,7 @@ This project follows the [all-contributors](https://github.com/kentcdodds/all-co
 
 Alternatively, you can also open this repository in Gitpod, an online IDE for GitHub. Just click on the button below and all of the above mentioned work is automated, so you don't have to worry about setting up your environment.
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/carbon-app/carbon)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/Hugoberry/carbon)
 
 ### Adding themes/languages
 
