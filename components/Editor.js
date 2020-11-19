@@ -15,7 +15,6 @@ import Carbon from './Carbon'
 import ExportMenu from './ExportMenu'
 import CopyMenu from './CopyMenu'
 import Themes from './Themes'
-import TweetButton from './TweetButton'
 import FontFace from './FontFace'
 import LanguageIcon from './svg/Language'
 import {
@@ -392,7 +391,6 @@ class Editor extends React.Component {
             <div id="style-editor-button" />
             <div className="buttons">
               <CopyMenu copyImage={this.copyImage} carbonRef={this.carbonNode.current} />
-              <TweetButton onClick={this.tweet} />
               <ExportMenu
                 onChange={this.updateSetting}
                 exportImage={this.exportImage}

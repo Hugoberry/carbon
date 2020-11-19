@@ -58,15 +58,15 @@ class Carbon extends React.PureComponent {
 
   handleLanguageChange = debounce(
     (newCode, language) => {
-      if (language === 'auto') {
-        // try to set the language
-        const detectedLanguage = hljs.highlightAuto(newCode).language
-        const languageMode = searchLanguage(detectedLanguage)
+      // if (language === 'auto') {
+      //   // try to set the language
+      //   const detectedLanguage = hljs.highlightAuto(newCode).language
+      //   const languageMode = searchLanguage(detectedLanguage)
 
-        if (languageMode) {
-          return languageMode.mime || languageMode.mode
-        }
-      }
+      //   if (languageMode) {
+      //     return languageMode.mime || languageMode.mode
+      //   }
+      // }
 
       const languageMode = searchLanguage(language)
 
