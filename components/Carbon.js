@@ -486,7 +486,7 @@ function useShowInvisiblesLoader() {
 
 function CarbonContainer(props, ref) {
   useModeLoader()
-  useHighlightLoader()
+  //useHighlightLoader()
   useShowInvisiblesLoader()
   const editorRef = React.createRef()
   const onGutterClick = useSelectedLines(props, editorRef)
