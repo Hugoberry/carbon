@@ -19,7 +19,6 @@ class Page extends React.Component {
       <main className="main mb3">
         <Meta />
         <AuthContext>
-          <Announcement />
           <Header enableHeroText={enableHeroText} />
           <div className="login-button-container">
             <LoginButton />
